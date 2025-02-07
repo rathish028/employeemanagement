@@ -1,0 +1,66 @@
+@media screen and (min-width: 900px) {
+    .signup-parent {
+        width: 50%;
+    }
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("../assets/pexels-wendywei-1387174.jpg");
+    background-size: cover;
+    color: white;
+    max-width: 100%;
+}
+
+.form-control,
+.form-control:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    border-bottom: 2px solid white !important;
+    border-radius: 0px !important;
+    color: white !important;
+}
+
+select option {
+    /* margin: 40px; */
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+
+.navigator {
+    background-color: whitesmoke !important;
+    /* color: white !important; */
+}
+
+.toggler {
+    /* background-color: white !important; */
+    /* border: none !important; */
+    box-shadow: none !important;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.card-subtitle {
+    color: white;
+}
+
+.card-text::-webkit-scrollbar {
+    display: none;
+}
+
+.signup-parent {
+    background: rgba(0, 0, 0, 0.7);
+}
